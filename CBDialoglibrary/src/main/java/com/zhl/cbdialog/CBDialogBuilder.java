@@ -541,9 +541,9 @@ public class CBDialogBuilder {
 	 */
 	public CBDialogBuilder setButtonClickListener(final boolean isDissmiss,
 			final onDialogbtnClickListener btnClickListener) {
-		if (DIALOG_STYLE_CURRENT != DIALOG_STYLE_NORMAL) {
-			return this;
-		}
+//		if (DIALOG_STYLE_CURRENT != DIALOG_STYLE_NORMAL) {
+//			return this;
+//		}
 		this.btnClickListener = btnClickListener;
 		final Button btnConfirm = getView(R.id.dialog_posi_btn);
 		btnConfirm.setOnClickListener(new OnClickListener() {
